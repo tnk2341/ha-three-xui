@@ -1,0 +1,36 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Подключение к панели 3x-ui",
+        "description": "Введите данные для подключения к вашей панели 3x-ui (MHSanaei).",
+        "data": {
+          "name": "Название сервера",
+          "url": "URL панели (например, http://192.168.1.100:2053)",
+          "token": "API Token (Bearer)",
+          "verify_ssl": "Проверять SSL-сертификат",
+          "scan_interval": "Интервал обновления (секунды)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Не удалось подключиться к панели 3x-ui. Проверьте URL и сеть.",
+      "invalid_auth": "Неверный API Token.",
+      "unknown": "Произошла непредвиденная ошибка."
+    },
+    "abort": {
+      "already_configured": "Этот сервер 3x-ui уже добавлен."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Настройки 3x-ui Monitor",
+        "data": {
+          "scan_interval": "Интервал обновления (секунды)",
+          "verify_ssl": "Проверять SSL-сертификат"
+        }
+      }
+    }
+  }
+}

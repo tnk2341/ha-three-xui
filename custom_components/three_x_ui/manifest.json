@@ -1,0 +1,12 @@
+{
+  "domain": "three_x_ui",
+  "name": "3x-ui Monitor",
+  "codeowners": [],
+  "config_flow": true,
+  "documentation": "https://github.com/MHSanaei/3x-ui",
+  "integration_type": "hub",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/MHSanaei/3x-ui/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}
